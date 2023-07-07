@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color: rgb(199, 182, 161);
+    padding: 10px;
+    color: rgb(27, 29, 31);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.logo-photo{
+    width: 100px;
+    
+}
+.menu{
+    display: flex;   
+    }
+.item{
+    margin: 10px;
+    padding: 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* cursor point er color change */
+.item:hover{
+    color: blueviolet;
+}
+.banner-photo{
+    width: 400px;
+}
+/* image source of google */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    border: solid goldenrod;
+    align-items: center; 
+    background: url("../20220624_184810.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+.title{
+    font-weight: bolder;
+    color: rgb(200, 232, 238);
+}
+.exlore{
+    color: rgb(181, 216, 218);
+    background-color: rgb(238, 7, 7);
+    font-size: large;
+}
+.walmart{
+    font-weight: bold;
+    color: #a2ccc8;
+}
+.explore{
+background-color: rgb(148, 129, 129);
+}
+.banner-photo{
+    background-color: blanchedalmond;
+}
